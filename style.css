@@ -1,0 +1,144 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #6a11cb, #9b59b6);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Navbar */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #6a11cb;
+}
+
+/* Container */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Judul dalam card */
+.card h2 {
+    margin-bottom: 10px;
+}
+
+/* Link */
+a {
+    color: #6a11cb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gambar */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* List */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th {
+    background-color: #d63384;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Form */
+form {
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e0fa3;
+}
+
+/* Teks warna */
+.text-merah {
+    color: red;
+}
